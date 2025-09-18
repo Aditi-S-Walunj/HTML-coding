@@ -1,0 +1,23 @@
+<html>
+    <head>
+        </head>
+        <body>
+            <form action="/server">
+                <input type="text"name="fname"placeholder="First Name"required><br><br>
+                <input type="text"name="Lname"placeholder="Last Name"required><br><br>
+            <label for id="vol">Select volume</label>
+            <input type="range"id="vol"min="0"max="100"name="Volume"><br><br>
+            Choose your proffession:<select>
+                <option value="dev">Developer</option>
+                <option value="stu">Student</option>
+            </select><br><br>
+            <label for id="text">Please give your Feedback :</label>
+            <textarea id="text"name="feedback"rows="5"cols="20"placeholder="Write Your Feedback"></textarea><br><br>
+            Do you agree to all of service?<ul>
+                <input type="radio"name="Yes">Yes,I agree<br><br>
+                <input type="radio"name="Yes">No,I'm not agree<br><br>
+                </ul>
+             <button type="submit">submit</button>
+            </form>
+        </body>
+</html>
